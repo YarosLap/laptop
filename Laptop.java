@@ -43,7 +43,7 @@ public class Laptop {
         Scanner scan = new Scanner(System.in);
         Set<Laptop> listLaptop = new HashSet<>(laptop);
 
-        System.out.println("Приветствую! Выберите номер критерия фильрации ноутбуков:" +
+        System.out.println("Приветствую! Выберите номер критерия фильтрации ноутбуков:" +
                 "\n1. Объём жесткого диска\n2. Объём оперативной памяти\n3. Операционная система\n4. Цвет");
         String userRequest = scan.nextLine();
 
